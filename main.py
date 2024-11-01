@@ -16,7 +16,7 @@ def main():
     elif choice == "2":
         print("Starting client...")
         # You can modify the host and port here if needed
-        client = WhiteboardClient(host='localhost', port=5000)
+        client = WhiteboardClient()
         client.run()
     else:
         print("Invalid choice. Please enter 1 or 2.")
